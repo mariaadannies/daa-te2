@@ -1,0 +1,22 @@
+Execution Time Comparison
++------+----------------------+-------------------+-----------------------------------------+-----------------------------------------+
+| Size |       Time DP        |      TIme BNB     |                Result DP                |                Result BNB               |
++------+----------------------+-------------------+-----------------------------------------+-----------------------------------------+
+|  10  |         0.0          |                   |    Ada partisi yang memenuhi syarat.    |                                         |
+|  10  |         0.0          |        0.0        |    Ada partisi yang memenuhi syarat.    |    Ada partisi yang memenuhi syarat.    |
+|  40  | 0.003022670745849609 |                   | Tidak ada partisi yang memenuhi syarat. |                                         |
+|  40  | 0.003022670745849609 | 70.50409841537476 | Tidak ada partisi yang memenuhi syarat. | Tidak ada partisi yang memenuhi syarat. |
+|  80  | 0.017939329147338867 |                   |    Ada partisi yang memenuhi syarat.    |                                         |
++------+----------------------+-------------------+-----------------------------------------+-----------------------------------------+
+
+
+Memory Usage Comparison
++------+-------------+-------------+-----------------------------------------+-----------------------------------------+
+| Size |  Memory DP  |  Memory BNB |                Result DP                |                Result BNB               |
++------+-------------+-------------+-----------------------------------------+-----------------------------------------+
+|  10  |  26.484375  |             |    Ada partisi yang memenuhi syarat.    |                                         |
+|  10  |  26.484375  | 26.48828125 |    Ada partisi yang memenuhi syarat.    |    Ada partisi yang memenuhi syarat.    |
+|  40  | 26.48828125 |             | Tidak ada partisi yang memenuhi syarat. |                                         |
+|  40  | 26.48828125 |  26.4140625 | Tidak ada partisi yang memenuhi syarat. | Tidak ada partisi yang memenuhi syarat. |
+|  80  | 26.68359375 |             |    Ada partisi yang memenuhi syarat.    |                                         |
++------+-------------+-------------+-----------------------------------------+-----------------------------------------+
